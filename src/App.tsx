@@ -231,21 +231,9 @@ const PHOTO_DUMP = [
 const LETTERS: Letter[] = [
   {
     id: 1,
-    title: "To My Dearest Aunty Modupe",
-    content: "Happy Birthday to a pillar of strength, love, and grace! Thank you for always being there with a warm heart, kind words, and wise counsel. Even though we haven't met in person yet, your sweet spirit and love reach across every distance and mean the world to me.",
+    title: "To My Dearest Aunty Dupe",
+    content: "Happy birthday to my sweet aunty🎉❤️. May this new year of your life be filled with abundant blessings, good health, joy, peace, and countless reasons to smile. May God continue to guide and protect you, grant you the desires of your heart, and bless everything you do. May your days be long, beautiful, and filled with memorable moments surrounded by the people who love you. Thank you for being such an amazing aunty. I pray that this new chapter brings you greater happiness, success, and God's endless favour. Happy birthday once again, Aunty! 🎂🎊❤️ May you continue to shine and flourish in all that you do.",
     signature: "With All My Love, Toyosi"
-  },
-  {
-    id: 2,
-    title: "Unconditional Kindness & Sweetness",
-    content: "On your special day, I want to tell you how deeply I appreciate your generosity and warmth. You have been so sweet, caring, and thoughtful to me. May God bless your new age with abundant joy, peace, vibrant health, and endless happiness!",
-    signature: "Forever Grateful, Toyosi"
-  },
-  {
-    id: 3,
-    title: "A Wish for Your Special Day",
-    content: "Thank you for every prayer, every sweet check-in, and every bit of encouragement you have given me. I hope this birthday brings you as much brightness, laughter, and delight as you bring into my life!",
-    signature: "Love always, Toyosi"
   }
 ];
 
