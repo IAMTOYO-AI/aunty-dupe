@@ -151,8 +151,8 @@ function PhotobookImage({ url, index, fitMode = 'cover' }: { url: string; index:
 }
 
 function VideoMessageSection() {
-  const videoRawUrl = "https://www.dropbox.com/scl/fi/a1si8m1szsgtgr4dw6d9n/0824.mov?rlkey=jmj9l29pegpd5tqiqk69p2iwc&st=3gijfgm2&dl=0";
-  const videoDlUrl = "https://www.dropbox.com/scl/fi/a1si8m1szsgtgr4dw6d9n/0824.mov?rlkey=jmj9l29pegpd5tqiqk69p2iwc&st=3gijfgm2&dl=0";
+  const videoRawUrl = "https://www.dropbox.com/scl/fi/a1si8m1szsgtgr4dw6d9n/0824.mov?rlkey=jmj9l29pegpd5tqiqk69p2iwc&raw=1";
+  const videoDlUrl = "https://dl.dropboxusercontent.com/scl/fi/a1si8m1szsgtgr4dw6d9n/0824.mov?rlkey=jmj9l29pegpd5tqiqk69p2iwc&dl=1";
   const videoWebUrl = "https://www.dropbox.com/scl/fi/a1si8m1szsgtgr4dw6d9n/0824.mov?rlkey=jmj9l29pegpd5tqiqk69p2iwc&st=3gijfgm2&dl=0";
 
   return (
