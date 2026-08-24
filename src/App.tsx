@@ -151,9 +151,9 @@ function PhotobookImage({ url, index, fitMode = 'cover' }: { url: string; index:
 }
 
 function VideoMessageSection() {
-  const videoRawUrl = "https://www.dropbox.com/scl/fi/f0bm9n5xwqe98lrm67wi0/IMG_4541.mov?rlkey=oz3eovr9j61bggnq5a17fywlo&raw=1";
-  const videoDlUrl = "https://dl.dropboxusercontent.com/scl/fi/f0bm9n5xwqe98lrm67wi0/IMG_4541.mov?rlkey=oz3eovr9j61bggnq5a17fywlo&dl=1";
-  const videoWebUrl = "https://www.dropbox.com/scl/fi/f0bm9n5xwqe98lrm67wi0/IMG_4541.mov?rlkey=oz3eovr9j61bggnq5a17fywlo&st=61vd0qmt&dl=0";
+  const videoRawUrl = "https://www.dropbox.com/scl/fi/a1si8m1szsgtgr4dw6d9n/0824.mov?rlkey=jmj9l29pegpd5tqiqk69p2iwc&st=3gijfgm2&dl=0";
+  const videoDlUrl = "https://www.dropbox.com/scl/fi/a1si8m1szsgtgr4dw6d9n/0824.mov?rlkey=jmj9l29pegpd5tqiqk69p2iwc&st=3gijfgm2&dl=0";
+  const videoWebUrl = "https://www.dropbox.com/scl/fi/a1si8m1szsgtgr4dw6d9n/0824.mov?rlkey=jmj9l29pegpd5tqiqk69p2iwc&st=3gijfgm2&dl=0";
 
   return (
     <section className="py-24 relative z-10 overflow-hidden bg-gradient-to-b from-[#FAF8F5] via-romantic-50/20 to-white border-b border-romantic-100/60">
