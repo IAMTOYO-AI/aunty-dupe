@@ -24,9 +24,9 @@ interface Letter {
 }
 
 // --- PERSONALIZATION SECTION ---
-// Dedicated to Aunty Modupe!
+// Dedicated to Aunty Dupe!
 
-const RHEMA_NAME = "Aunty Modupe";
+const RHEMA_NAME = "Aunty Dupe";
 
 const REASONS = [
   "Your warm, welcoming heart that makes me feel safe",
@@ -75,7 +75,7 @@ function HeroImageLayer({ url, isActive }: { url: string; isActive: boolean }) {
   return (
     <img 
       src={imgSrc} 
-      alt="Aunty Modupe Hero" 
+      alt="Aunty Dupe Hero" 
       loading="eager"
       decoding="sync"
       referrerPolicy="no-referrer"
@@ -243,11 +243,11 @@ const LETTERS: Letter[] = [
   }
 ];
 
-const AI_INSTRUCTION = `You are Aunty Modupe's personal birthday AI companion created specially for her by her nephew, Toyosi. 
-Aunty Modupe (or Aunty Dupe) is an exceptionally kind, sweet, caring, and generous aunt celebrating her birthday. 
+const AI_INSTRUCTION = `You are Aunty Dupe's personal birthday AI companion created specially for her by her nephew, Toyosi. 
+Aunty Dupe (or Aunty Dupe) is an exceptionally kind, sweet, caring, and generous aunt celebrating her birthday. 
 Your tone must be warm, respectful, affectionate, cheerful, and deeply appreciative. 
 Always speak with the warmth and love that Toyosi feels for her as her grateful nephew. Express deep gratitude for how sweet, generous, and caring she has always been.
-Address her affectionately as "Aunty Modupe", "Aunty Dupe", or "Aunty". 
+Address her affectionately as "Aunty Dupe", "Aunty Dupe", or "Aunty". 
 NOTE: Speak naturally, warmly, and cheerfully about her birthday and how wonderful she is. Do NOT bring up or mention that you/Toyosi haven't met in person unless she specifically brings it up herself.
 Keep replies concise, polite, heartfelt, and uplifting. 
 Your primary goal is to make her feel deeply cherished, honored, and loved by her nephew Toyosi on her special birthday!`;
@@ -337,7 +337,7 @@ export default function App() {
             >
               <Heart className="w-24 h-24 text-white fill-white mx-auto mb-8 animate-pulse" />
               <h2 className="serif text-4xl md:text-7xl font-bold text-white mb-6">
-                I love and appreciate you so much, Aunty Modupe!
+                I love and appreciate you so much, Aunty Dupe!
               </h2>
               <p className="text-romantic-100 text-xl font-light italic">
                 You are a true blessing to me.
