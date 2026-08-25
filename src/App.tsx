@@ -322,36 +322,45 @@ export default function App() {
 
   return (
     <div className="min-h-screen font-sans selection:bg-romantic-300">
-      <AnimatePresence>
-        {showSurprise && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="fixed inset-0 z-[150] bg-romantic-500 flex items-center justify-center text-center p-6"
-          >
-            <button 
-              on={() => setShowSurprise(false)}
-              className="absolute top-8 right-8 text-white/80 hover:text-white"
-            >
-              <X className="w-8 h-8" />
-            </button>
-            <motion.div
-              initial={{ scale: 0.5, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              transition={{ type: "spring", duration: 1 }}
-            >
-              <Heart className="w-24 h-24 text-white fill-white mx-auto mb-8 animate-pulse" />
-              <h2 className="serif text-4xl md:text-7xl font-bold text-white mb-6">
-                I love and appreciate you so much, Aunty Dupe!
-              </h2>
-              <p className="text-romantic-100 text-xl font-light italic">
-                You are a true blessing to me.
-              </p>
-            </motion.div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+      <<AnimatePresence>
+  {showSurprise && (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="fixed inset-0 z-[9999] bg-romantic-500 flex items-center justify-center text-center p-6"
+    >
+      <button
+        type="button"
+        onClick={(e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          setShowSurprise(false);
+        }}
+        className="absolute top-6 right-6 z-[250] flex items-center justify-center w-12 h-12 rounded-full bg-black/20 text-white/90 hover:bg-black/40 hover:text-white transition-all cursor-pointer"
+        aria-label="Close surprise"
+      >
+        <X className="w-8 h-8" />
+      </button>
+
+      <motion.div
+        initial={{ scale: 0.5, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        transition={{ type: "spring", duration: 1 }}
+      >
+        <Heart className="w-24 h-24 text-white fill-white mx-auto mb-8 animate-pulse" />
+
+        <h2 className="serif text-4xl md:text-7xl font-bold text-white mb-6">
+          I love and appreciate you so much, Aunty Dupe!
+        </h2>
+
+        <p className="text-romantic-100 text-xl font-light italic">
+          You are a true blessing to me.
+        </p>
+      </motion.div>
+    </motion.div>
+  )}
+</AnimatePresence>
 
       {/* Background Decor */}
       <div className="fixed inset-0 pointer-events-none z-0">
