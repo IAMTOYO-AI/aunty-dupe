@@ -240,6 +240,12 @@ const LETTERS: Letter[] = [
     title: "Happy Birthday My Sweet Aunty Dupe",
     content: "I wish you long life and prosperity in good health and peace of mind. I pray that the Almighty God would bring all your heart desires to pass according to His plan and purpose for your life in Jesus name. Thank you for all the love and kindness you show and for always being there. You have such a large heart and you are one of the sweetest person I know. I love you so much my sweet aunty Dupe. Enjoy your birthday, Ma!🥳 🫂❤️",
     signature: "Tomisin"
+  },
+  {
+    id: 3,
+    title: "Happy Birthday Aunty Dupsy of Life",
+    content: "Happy birthday Ma. Wishing you long life and prosperity. Thank you for all that you do. Thank you for being best aunty ever. God bless you and God bless your new age. I wish you all the good things in life and I wish you a very lovely birthday celebration, even more lovely than you are and you are very lovely. God bless you and God bless everyone that you love and care about.",
+    signature: "Dr Tobi"
   }
 ];
 
