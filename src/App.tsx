@@ -322,7 +322,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen font-sans selection:bg-romantic-300">
-      <<AnimatePresence>
+      <AnimatePresence>
   {showSurprise && (
     <motion.div
       initial={{ opacity: 0 }}
