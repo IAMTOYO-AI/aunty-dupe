@@ -325,7 +325,7 @@ export default function App() {
             className="fixed inset-0 z-[150] bg-romantic-500 flex items-center justify-center text-center p-6"
           >
             <button 
-              onClick={() => setShowSurprise(false)}
+              on={() => setShowSurprise(false)}
               className="absolute top-8 right-8 text-white/80 hover:text-white"
             >
               <X className="w-8 h-8" />
@@ -446,7 +446,7 @@ export default function App() {
               onClick={nextReason}
               className="group relative px-8 py-4 bg-gray-900 text-white rounded-full font-semibold overflow-hidden transition-all hover:pr-12 active:scale-95 shadow-lg"
             >
-              <span className="relative z-10 italic">Click for a reason why we love you, Aunty</span>
+              <span className="relative z-10 italic">Click for a reason why I love you, Aunty</span>
               <Heart className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-romantic-300 opacity-0 group-hover:opacity-100 transition-all" />
             </button>
           </motion.div>
